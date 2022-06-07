@@ -7,7 +7,9 @@
 
 	<test thread-count="5" name="PIM Page Test ">
 		<classes>
+			
 			<class name="com.TestLayer.PIMPageTest" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

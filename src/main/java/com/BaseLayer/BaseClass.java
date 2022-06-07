@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseClass {
 
 	public static WebDriver driver;
@@ -32,8 +34,9 @@ public class BaseClass {
 		String browsername = prop.getProperty("browsername");
 
 		if (browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\praf0\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver",
+//					"C:\\Users\\praf0\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browsername.equals("edge")) {
 			System.setProperty("webdriver.edge.driver",
