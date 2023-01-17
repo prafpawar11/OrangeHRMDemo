@@ -22,7 +22,7 @@ public class BaseClass {
 
 		try {
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\praf0\\Desktop\\script\\OrangeHRMTest\\src\\main\\java\\com\\Config\\config.properties");
+					System.getProperty("user.dir")+"\\src\\main\\java\\com\\Config\\config.properties");
 			prop.load(fis);
 		} catch (Exception e) {
 

@@ -8,13 +8,13 @@ import com.BaseLayer.BaseClass;
 
 public class LoginPage extends BaseClass {
 	// Object Repositories with the help of page Factory
-	@FindBy(id = "txtUsername")
+	@FindBy(name = "username")
 	WebElement username;
 
-	@FindBy(id = "txtPassword")
+	@FindBy(name = "password")
 	WebElement password;
 
-	@FindBy(id = "btnLogin")
+	@FindBy(xpath = "//button[text()=' Login ']")
 	WebElement loginButton;
 
 	@FindBy(id = "spanMessage")

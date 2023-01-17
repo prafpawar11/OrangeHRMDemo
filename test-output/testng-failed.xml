@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Orange HRM Test ]">
-  <listeners>
-    <listener class-name="com.UtilsLayer.ExtentReportListener"/>
-  </listeners>
-  <test parallel="none" name="PIM Page Test (failed)">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.TestLayer.PIMPageTest">
+      <class name="com.TestLayer.LoginPageTest">
         <methods>
-          <include name="validateJobDetailFunctionality"/>
+          <include name="validateLoginFunctionality"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.TestLayer.PIMPageTest -->
+      </class> <!-- com.TestLayer.LoginPageTest -->
     </classes>
-  </test> <!-- PIM Page Test (failed) -->
-</suite> <!-- Failed suite [Orange HRM Test ] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

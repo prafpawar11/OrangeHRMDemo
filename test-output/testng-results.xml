@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="9" passed="9" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-02T14:08:28Z" name="Default suite" finished-at="2022-06-02T14:08:56Z" duration-ms="27629">
+  <suite started-at="2023-01-17T14:41:43Z" name="Suite" finished-at="2023-01-17T14:42:04Z" duration-ms="20966">
     <groups>
     </groups>
-    <test started-at="2022-06-02T14:08:28Z" name="Default test" finished-at="2022-06-02T14:08:56Z" duration-ms="27629">
-      <class name="com.TestLayer.PIMPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:28Z" name="setUp" finished-at="2022-06-02T19:38:35Z" duration-ms="7179" status="PASS">
+    <test started-at="2023-01-17T14:41:43Z" name="Test" finished-at="2023-01-17T14:42:04Z" duration-ms="20966">
+      <class name="com.TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestLayer.LoginPageTest@3212a8d7]" started-at="2023-01-17T20:11:44Z" name="setUp" finished-at="2023-01-17T20:12:00Z" duration-ms="16723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginFunctionality()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:35Z" name="loginFunctionality" finished-at="2022-06-02T19:38:40Z" duration-ms="4793" status="PASS">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:com.TestLayer.LoginPageTest@3212a8d7]" started-at="2023-01-17T20:12:00Z" name="validateLoginFunctionality" finished-at="2023-01-17T20:12:03Z" duration-ms="2723" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFunctionality -->
-        <test-method signature="validateHomePageTitle()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:40Z" name="validateHomePageTitle" finished-at="2022-06-02T19:38:40Z" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePageTitle -->
-        <test-method signature="validateHomePageUrl()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:40Z" name="validateHomePageUrl" finished-at="2022-06-02T19:38:40Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePageUrl -->
-        <test-method signature="validateHomePagelogo()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:40Z" name="validateHomePagelogo" finished-at="2022-06-02T19:38:40Z" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePagelogo -->
-        <test-method signature="validateHomePagePIMPage()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:40Z" name="validateHomePagePIMPage" finished-at="2022-06-02T19:38:42Z" duration-ms="1805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePagePIMPage -->
-        <test-method signature="validateCreateNewUserFunctionality()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:42Z" name="validateCreateNewUserFunctionality" finished-at="2022-06-02T19:38:45Z" duration-ms="3201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateNewUserFunctionality -->
-        <test-method signature="validateMorePersonalInformation()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:45Z" name="validateMorePersonalInformation" finished-at="2022-06-02T19:38:49Z" duration-ms="3233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMorePersonalInformation -->
-        <test-method signature="validateJobDetailFunctionality()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:49Z" name="validateJobDetailFunctionality" finished-at="2022-06-02T19:38:52Z" duration-ms="3564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateJobDetailFunctionality -->
-        <test-method signature="validateUserandDelete()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:52Z" name="validateUserandDelete" finished-at="2022-06-02T19:38:56Z" duration-ms="3406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserandDelete -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.PIMPageTest@d771cc9]" started-at="2022-06-02T19:38:56Z" name="tearDown" finished-at="2022-06-02T19:38:56Z" duration-ms="310" status="PASS">
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.LoginPageTest@3212a8d7]" started-at="2023-01-17T20:12:04Z" name="tearDown" finished-at="2023-01-17T20:12:04Z" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.TestLayer.PIMPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestLayer.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

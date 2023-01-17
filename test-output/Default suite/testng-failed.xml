@@ -3,19 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.TestLayer.PIMPageTest">
+      <class name="com.TestLayer.LoginPageTest">
         <methods>
-          <include name="validateHomePagePIMPage"/>
-          <include name="validateHomePageUrl"/>
-          <include name="validateUserandDelete"/>
-          <include name="validateCreateNewUserFunctionality"/>
-          <include name="validateHomePagelogo"/>
-          <include name="validateJobDetailFunctionality"/>
+          <include name="validateLoginFunctionality"/>
           <include name="tearDown"/>
-          <include name="validateMorePersonalInformation"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.TestLayer.PIMPageTest -->
+      </class> <!-- com.TestLayer.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
